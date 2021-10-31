@@ -356,6 +356,12 @@ class InsideScreen extends StatelessWidget {
                     children: [
                       Image.asset('holden_milestone.jpg',
                           height: 150, width: 150, fit: BoxFit.cover),
+                      /* 
+                          500,000th Holden, 1958 
+                          | In 1948 Australian car manufacturer… | 
+                          Flickr. (n.d.). Retrieved October 31, 2021, 
+                          from https://www.flickr.com/photos/national-archives-of-australia/2877053135
+                      */
                       Expanded(
                         child: Container(
                           padding: EdgeInsets.all(10.0),
