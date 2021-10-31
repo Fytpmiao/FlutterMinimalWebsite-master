@@ -270,6 +270,13 @@ class ImageScreen extends StatelessWidget {
                           ),
                           Image.asset('holden_logo.jpg',
                               height: 170, width: 170, fit: BoxFit.cover),
+                          /*
+                              Fahey, J. (2019). 
+                              The Cultivation of an Australian Identity: 
+                              New Insights into Public Relations at General Motors-Holden in the Interwar Era. 
+                              Australian Historical Studies, 50(4), 483–502. 
+                              https://doi.org/10.1080/1031461X.2019.1651354
+                          */
                         ],
                       ),
                     ),
