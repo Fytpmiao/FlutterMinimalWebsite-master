@@ -1,11 +1,13 @@
 This is the web work of team Collie 
 
 Q1: How did the team develop the project?
+
 A1: Our team used fluent for software development. You can find the source code of our project in Fytpmiao/TeamCollie (github.com). 
 	We added references and comments to the source code.
 	Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, desktop, and embedded devices from a single codebase. For more information, see Beautiful native apps in record time | Flutter
 
 Q2: In this project, what functions are planned but not implemented by the team?
+
 A2: There are two parts that we were unable to complete in the final product. The first part is that we did not add the "old photo color restoration" technology to the content page of the story collection because we had a decision here. 
 
 Another problem is that because we use the book's concept to display content, the effect of "flipping the book" is something we want to show in the product.
