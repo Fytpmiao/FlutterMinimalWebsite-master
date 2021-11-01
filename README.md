@@ -2,7 +2,7 @@ This is the web work of team Collie
 
 Q1: How did the team develop the project?
 
-A1: Our team used fluent for software development. You can find the source code of our project in Fytpmiao/TeamCollie (github.com). 
+A1: Our team used flutter for software development. You can find the source code of our project in Fytpmiao/TeamCollie (github.com). 
 	We added references and comments to the source code.
 	Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, desktop, and embedded devices from a single codebase. For more information, see Beautiful native apps in record time | Flutter
 
