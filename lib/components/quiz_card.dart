@@ -116,6 +116,11 @@ class _QuizCardState extends State<QuizCard> {
                                                 width: 200,
                                                 image:
                                                     AssetImage('person.jpg')),
+                                            /*
+                                            The Architect - Jørn Utzon - Sydney Opera House. 
+                                            (n.d.). Retrieved October 31, 2021, 
+                                            from https://www.sydneyoperahouse.com/our-story/the-architect-jorn-utzon.html
+                                             */
                                             Text(
                                               "Jørn Utzon",
                                               style: TextStyle(
