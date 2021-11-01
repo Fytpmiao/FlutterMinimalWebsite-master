@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:minimal/pages/Q&A.dart';
+import 'package:minimal/pages/about_us.dart';
 import 'package:minimal/pages/reference.dart';
 
 class ImageWrapper extends StatelessWidget {
@@ -31,7 +33,7 @@ class Footer extends StatelessWidget {
     return Container(
       padding: EdgeInsets.symmetric(vertical: 40),
       child: Align(
-        alignment: Alignment.centerRight,
+        alignment: Alignment.center,
         child: Text("Copyright © 2021"),
       ),
     );
@@ -94,13 +96,15 @@ class MenuBar extends StatelessWidget {
                                 fontWeight: FontWeight.w800)),
                       ),
                       TextButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Get.to(() => QA());
+                        },
                         style: TextButton.styleFrom(
                           padding: const EdgeInsets.all(18.0),
                           primary: Colors.black,
                           textStyle: const TextStyle(fontSize: 28),
                         ),
-                        child: Text("GALLERY",
+                        child: Text("Q&A",
                             style: GoogleFonts.caveat(
                                 fontSize: 28,
                                 letterSpacing: 3,
@@ -122,7 +126,9 @@ class MenuBar extends StatelessWidget {
                                 fontWeight: FontWeight.w800)),
                       ),
                       TextButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Get.to(() => AboutUs());
+                        },
                         style: TextButton.styleFrom(
                           padding: const EdgeInsets.all(18.0),
                           primary: Colors.black,

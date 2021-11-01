@@ -306,8 +306,9 @@ class _HomePageState extends State<HomePage> {
                         ),
                       ),
                       Container(
-                        // color: const Color(0xffabdddc),
                         child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: <Widget>[
                             SizedBox(
                               height: 100,

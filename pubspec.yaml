@@ -6,19 +6,13 @@ environment:
   sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
-  timeline_tile: ^2.0.0
-  hover:
+  url_launcher:
   convert:
   http:
   flutter:
     sdk: flutter
   responsive_framework:
   get: ^4.3.8
-  # Uncomment to build standalone project.
-#  responsive_framework:
-#    git:
-#      url: https://github.com/Codelessly/ResponsiveFramework.git
-#      ref: master
   google_fonts: ^2.1.0
   animations: ^2.0.0
 
