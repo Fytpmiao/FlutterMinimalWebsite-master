@@ -86,6 +86,12 @@ class _HomePageState extends State<HomePage> {
             ParallaxWidget(top: imgRateZero, asset: "parallax0"),
             ParallaxWidget(top: imgRateOne, asset: "parallax1"),
             ParallaxWidget(top: imgRateTwo, asset: "parallax2"),
+            /*
+            Brisbane, Australia - skyline illustration - 
+            New Horizons of genuine commercial picture 0puk0s- 
+            photography. (n.d.). Retrieved October 31, 2021, 
+            from https://xsj.699pic.com/tupian/0puk0s.html
+            */
             ListView(
               children: <Widget>[
                 Container(
