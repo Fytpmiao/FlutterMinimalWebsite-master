@@ -263,6 +263,12 @@ class _HomePageState extends State<HomePage> {
                                   : Column(
                                       children: [
                                         Image.asset("Memorial_bw.jpg"),
+                                        /*
+                                        Urban Connections in late-Colonial Brisbane 
+                                        - School of Historical and Philosophical Inquiry 
+                                        - University of Queensland. (n.d.). Retrieved October 31, 2021, 
+                                        from https://hpi.uq.edu.au/project/urban-connections-late-colonial-brisbane
+                                         */
                                         Text(
                                           "Anzac Square Memorial photo from State library of Queensland",
                                           style: const TextStyle(
